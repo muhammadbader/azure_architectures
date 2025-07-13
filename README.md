@@ -56,11 +56,12 @@ cd azure-architecture-scraper
 
 ### 2. 🔐 Update Environment Variables
 
-Create a `.env` file in the root:
+Update `.env` file in the root:
 
 ```env
-MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/azure_architectures
-OPENAI_API_KEY=sk-xxxxxxx   
+MONGO_URI=mongodb+srv://<user>:<password>@cluster.mongodb.net/  # update here
+OPENAI_API_KEY=sk-xxxxxxx   # update here
+REACT_APP_API=http://localhost:8000  # keep as is
 ```
 
 ---
