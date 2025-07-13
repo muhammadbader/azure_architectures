@@ -93,6 +93,6 @@ docker-compose up --build -d
 ├── backend/         # FastAPI + Scraper
 ├── frontend/        # React + Tailwind
 ├── docker-compose.yml
-├── .env             # Secrets (not committed)
+├── .env             # Secrets (update here)
 └── README.md
 ```
